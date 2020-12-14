@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+			table,
+			td,
+			th {
+				border: 1px solid black;
+			}
+			th,
+			td {
+				padding: 8px;
+				text-align: left;
+				border-bottom: 1px solid #ddd;
+			}
+			tr:hover {
+				background-color: #f5f5f5;
+			}
+			.ex {
+				width: 100%;
+				display: flex;
+				background-color: yellow;
+				margin: auto;
+			}
+			.ex1 {
+				width: 30%;
+				margin: auto;
+				border: 3px solid #73ad21;
+				height: 300px;
+			}
+			.ex2 {
+				width: 30%;
+				margin: auto;
+				height: 300px;
+				border: 3px solid #73ad21;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Let the borders collapse:</h2>
+
+		<table>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+			</tr>
+			<tr>
+				<td>Peter</td>
+				<td>Griffin</td>
+			</tr>
+			<tr>
+				<td>Lois</td>
+				<td>Griffin</td>
+			</tr>
+		</table>
+
+		<div class="ex">
+			<div class="ex1"></div>
+
+			<div class="ex2"></div>
+		</div>
+	</body>
+</html>
